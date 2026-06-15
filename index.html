@@ -59,12 +59,20 @@
     border-radius: 24px;
     padding: 28px 20px;
     box-shadow: 0 8px 22px rgba(120, 90, 160, 0.18);
-
+    transition: all 0.3s ease;
+    .btn:hover {
+    transform: scale(1.05);
+    background: #ffcc4d;
+}
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
     min-height: 370px;
+}
+    .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(160,120,200,0.25);
 }
     .card h3 {
       font-size: 24px;
@@ -120,7 +128,7 @@
     <div class="grid" id="sections">
 
       <div class="card">
-        <h3>🎙 啾咪聊天室</h3>
+        <h3>🎙 聊天星球</h3>
         <p>
           姐妹聊天、童言童語、生活主題，
           記錄孩子最自然、最可愛的對話。
@@ -129,7 +137,7 @@
       </div>
 
       <div class="card">
-        <h3>✈️ 啾咪出發！GO！</h3>
+        <h3>✈️ 探險星球</h3>
         <p>
           親子旅行、國內景點、國外冒險，
           一起探索世界、留下回憶。
@@ -138,7 +146,7 @@
       </div>
 
       <div class="card">
-        <h3>📚 啾咪英文課</h3>
+        <h3>📚 語言星球</h3>
         <p>
           每日一句英文、姊妹短句練習，
           用可愛的方式一起學英文。
@@ -147,7 +155,7 @@
       </div>
 
       <div class="card">
-        <h3>🎬 啾咪小宇宙</h3>
+        <h3>🎬 創作星球</h3>
         <p>
           生活短片、短劇、戰鬥陀螺、
           畢業旅行與各種日常小故事。
